@@ -16,9 +16,9 @@ const Footer = () => {
     <section className="contact-us">
     <h2>Contact Us</h2>
     <form>
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Message"></textarea>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Please enter your message here..."></textarea>
         <input type="submit" value="Submit" />
     </form>
 </section>

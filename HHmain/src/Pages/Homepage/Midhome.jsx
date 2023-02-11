@@ -6,17 +6,17 @@ const Midhome = () => {
     {
       name: 'AC Repairing',
       description: 'Get your AC repaired by our experts',
-      gradient: 'linear-gradient(to bottom, #667eea, #764ba2)'
+      gradient: 'linear-gradient(to bottom, #FCF8E8, #E97777)'
     },
     {
       name: 'RO Service',
       description: 'Get your RO system serviced by our experts',
-      gradient: 'linear-gradient(to bottom, #fc00ff, #00dbde)'
+      gradient: 'linear-gradient(to bottom, #FCF8E8, #B3FFAE)'
     },
     {
       name: 'Deep Cleaning',
       description: 'Get your place deep cleaned by our experts',
-      gradient: 'linear-gradient(to bottom, #11998e, #38ef7d)'
+      gradient: 'linear-gradient(to bottom, #FCF8E8, #B2A4FF)'
     }
   ];
 
