@@ -1,0 +1,49 @@
+.middle-section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .service-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-name {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
