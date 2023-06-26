@@ -9,10 +9,11 @@ const Header = () => {
       </a>
       <nav className="navigation">
         <a to="/become-a-professional">Become a Professional</a>
-        <a to="/help">Help</a>
+        <a to="/help">Helps</a>
         <a to="/login">Login</a>
         <a to="/sign-up">Sign Up</a>
       </nav>
+      //dev branch changes done on addH, not in dev or master
     </header>
   );
 };
