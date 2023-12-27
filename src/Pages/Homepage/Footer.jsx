@@ -16,7 +16,7 @@ const Footer = () => {
       <div className='container'>
 
         <div className="contact-us full-width">
-            <div className='heading text-center'>
+            <div className='footer-heading  text-center'>
                   <h2>Contact Us</h2>
             </div>
           <div className='full-width'> 
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="links full-width">
-          <div className='heading text-center'>
+          <div className='footer-heading  text-center'>
             <h3>Important Links</h3>
           </div>
           <div className='footer-link-row'>
