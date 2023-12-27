@@ -20,7 +20,7 @@
     margin-top: 20px;
   }
   
-  select {
+  .hero-section select {
     height: 40px;
     width: 200px;
     margin-right: 20px;
@@ -30,7 +30,7 @@
     border-radius: 4px;
   }
   
-  input[type='text'] {
+  .hero-section input[type='text'] {
     height: 40px;
     width: 300px;
     padding: 10px;

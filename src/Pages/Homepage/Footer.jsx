@@ -13,39 +13,50 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-    <section className="contact-us">
-    <h2>Contact Us</h2>
-    <form>
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Please enter your message here..."></textarea>
-        <input type="submit" value="Submit" />
-    </form>
-</section>
-      <div className="links">
-        <h3>Important Links</h3>
-        <ul>
-          {links.map(link => (
-            <li key={link.name}>
-              <a href={link.path}>{link.name}</a>
-            </li>
-          ))}
-        </ul>
+      <div className='container'>
+
+        <div className="contact-us full-width">
+            <div className='footer-heading  text-center'>
+                  <h2>Contact Us</h2>
+            </div>
+          <div className='full-width'> 
+            <form className='common-form contact-us-form'>
+              <div className='form-group'>
+                <input className='form-control' type="text" placeholder="Your Name" />
+              </div>
+              <div className='form-group'>
+
+                <input className='form-control'  type="email" placeholder="Your Email" />
+              </div>
+              <div className='form-group'>
+                <textarea className='form-control' placeholder="Please enter your message here..."></textarea>
+              </div>
+
+              <div className='text-center'>
+              <button className='btn btn-submit' type='submit'>Submit</button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+        <div className="links full-width">
+          <div className='footer-heading  text-center'>
+            <h3>Important Links</h3>
+          </div>
+          <div className='footer-link-row'>
+          <ul>
+            {links.map(link => (
+              <li key={link.name}>
+                <a href={link.path}>{link.name}</a>
+              </li>
+            ))}
+          </ul>
+          </div>
+          
+        </div>
       </div>
     </footer>
   );
 };
-
-//<div className="contact-us">
-      //   <h3>Contact Us</h3>
-      //   <p>
-      //     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
-      //     libero id lectus dictum, at congue justo blandit.
-      //   </p>
-      //   <p>
-      //     Phone: +1234567890 <br />
-      //     Email: info@serviceprovider.com
-      //   </p>
-      // </div>
 
 export default Footer;

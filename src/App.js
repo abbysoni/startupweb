@@ -3,7 +3,10 @@ import Header from "./Pages/Homepage/Header";
 import Tophome from "./Pages/Homepage/Tophome";
 import Midhome from "./Pages/Homepage/Midhome";
 import Footer from "./Pages/Homepage/Footer";
-
+// import orderDetail from './Pages/Tejas/orderDetail';
+// import invDetail from './Pages/Tejas/invDetail';
+// import jobCard from './Pages/Tejas/jobCard';
+// import invoice from './Pages/Tejas/invoice';
 
 function App() {
   return (
@@ -13,17 +16,13 @@ function App() {
     <Midhome/>
     <Footer/>
 
+    {/* <orderDetail/> */}
+    {/* <invDetail/>
+    <jobCard/>
+    <invoice/> */}
+
+
     </div>
   );
 }
 export default App;
-// import React from 'react'
-
-// function App() {
-//   return (
-//     <div>the text is shown directly from app.js file
-//     </div>
-//   )
-// }
-
-// export default App
